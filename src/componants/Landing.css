@@ -1,0 +1,117 @@
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f0fdf4 0%, #bbf7d0 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.landing-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.landing-hero-text {
+  max-width: 420px;
+}
+
+.landing-hero h1 {
+  font-size: 3rem;
+  color: #166534;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.landing-tagline {
+  font-size: 1.3rem;
+  color: #15803d;
+  margin-bottom: 32px;
+}
+
+.landing-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.farmer-btn, .customer-btn {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.farmer-btn {
+  background: #166534;
+  color: #fff;
+}
+
+.farmer-btn:hover {
+  background: #22c55e;
+  color: #166534;
+}
+
+.customer-btn {
+  background: #bbf7d0;
+  color: #166534;
+  border: 2px solid #166534;
+}
+
+.customer-btn:hover {
+  background: #166534;
+  color: #fff;
+}
+
+.landing-hero-img {
+  width: 340px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(44,62,80,0.10);
+}
+
+.landing-features {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.landing-features h2 {
+  color: #166534;
+  font-size: 2rem;
+  margin-bottom: 28px;
+}
+
+.features-list {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  padding: 28px 22px;
+  max-width: 260px;
+  min-width: 200px;
+}
+
+.feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.feature h3 {
+  color: #15803d;
+  margin-bottom: 8px;
+  font-size: 1.15rem;
+}
