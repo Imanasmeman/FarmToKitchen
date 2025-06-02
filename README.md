@@ -60,13 +60,6 @@ Farm to Kitchen is a modern web platform that connects local farmers directly wi
 
 ---
 
-## 📸 Screenshots
-
-![Landing Page](https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80)
-*Landing page with hero section and call-to-action buttons.*
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for improvements or new features.
